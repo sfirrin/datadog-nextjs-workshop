@@ -15,8 +15,8 @@ const ClientFetchingPrimePage = () => {
 
   useEffect(() => {
     datadogRum.init({
-      applicationId: "7f7faa98-e0a9-4ede-a695-48d1eeb49af5",
-      clientToken: "pub46e58b189429c7efd4f70fba7f20c02e",
+      applicationId: "4213a195-ef0b-4251-ae47-061c5258d38e",
+      clientToken: "pubf7d2286c57cb873b902f0fdea0f26dae",
       site: "datadoghq.com",
       service: "nextjs-dev",
       env: "<ENV_NAME>",
