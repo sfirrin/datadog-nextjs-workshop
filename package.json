@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@datadog/browser-rum": "^4.50.1",
     "@opentelemetry/api": "^1.4.1",
     "@vercel/otel": "^0.3.0",
     "next": "13.5.4",
