@@ -12,9 +12,9 @@
     "@datadog/browser-rum": "^4.50.1",
     "@opentelemetry/api": "^1.4.1",
     "@vercel/otel": "^0.3.0",
-    "next": "link:../../dev/next.js/packages/next",
-    "react": "link:../../dev/next.js/node_modules/react",
-    "react-dom": "link:../../dev/next.js/node_modules/react-dom"
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
