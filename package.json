@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-datadog-workshop",
+  "name": "nextjs-testing-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,9 @@
     "@datadog/browser-rum": "^4.50.1",
     "@opentelemetry/api": "^1.4.1",
     "@vercel/otel": "^0.3.0",
-    "next": "13.5.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "link:../../dev/next.js/packages/next",
+    "react": "link:../../dev/next.js/node_modules/react",
+    "react-dom": "link:../../dev/next.js/node_modules/react-dom"
   },
   "devDependencies": {
     "@types/node": "^20",
