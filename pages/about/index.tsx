@@ -30,7 +30,9 @@ const AboutPage = () => {
       <div>Hello Stephen!</div>
       <button
         onClick={() => {
-          const generateError = (undefined as any).title;
+          //   const generateError = (undefined as any).title;
+
+          fetch(`/api/products`).then((response) => response.json());
         }}
       >
         Hello
