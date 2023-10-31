@@ -15,6 +15,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
   const largestPrime = getLargestPrime(maxValue);
 
+  console.log("Logging from get-largest-prime API route");
+
   console.log(
     JSON.stringify({
       largestPrime,

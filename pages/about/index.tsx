@@ -32,7 +32,7 @@ const AboutPage = () => {
         onClick={() => {
           //   const generateError = (undefined as any).title;
 
-          fetch(`/api/products`).then((response) => response.json());
+          const productCount = BigInt(1.5);
         }}
       >
         Hello
