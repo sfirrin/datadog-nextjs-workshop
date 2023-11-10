@@ -28,7 +28,9 @@ const ClientFetchingPrimePage = () => {
       trackResources: true,
       trackLongTasks: true,
       defaultPrivacyLevel: "mask-user-input",
-      allowedTracingUrls: [{ match: /.*/, propagatorTypes: ["tracecontext"] }],
+      allowedTracingUrls: [
+        { match: () => true, propagatorTypes: ["tracecontext"] },
+      ],
     });
 
     datadogRum.startSessionReplayRecording();
